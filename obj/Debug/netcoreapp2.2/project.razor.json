@@ -1,0 +1,25 @@
+{
+  "FilePath": "/Users/user/coding dojo/csharpNew/asp1_Mvc/RazorFun/RazorFun.csproj",
+  "Configuration": {
+    "ConfigurationName": "MVC-2.1",
+    "LanguageVersion": "2.1",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-2.1"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 703
+  },
+  "RootNamespace": "RazorFun",
+  "Documents": [
+    {
+      "FilePath": "/Users/user/coding dojo/csharpNew/asp1_Mvc/RazorFun/Views/Home/Home.cshtml",
+      "TargetPath": "Views\\Home\\Home.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
+  "SerializationFormat": "0.2"
+}

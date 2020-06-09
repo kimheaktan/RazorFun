@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Razor Fun</title>
+</head>
+<body>
+    <h3>Here are some of the items on my list!</h3>
+    @{
+        string[] array = new string[]{"car","dog","house","happiness"};
+        Random rand = new Random(); 
+
+        for(var i=0; i<array.Length; i++){
+            int randInt = rand.Next(array.Length);
+            if(array[randInt].StartsWith("c")){ // or use IndexOf("c") == 0; // the 0 can be changed to any idex (1,2..)// both methods are case sensitive
+                <p style="color:red">@array[randInt]</p>
+            }
+            else{
+                <p>@array[randInt]</p>
+            }
+        }
+    }
+</body>
+</html>
